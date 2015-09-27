@@ -2,7 +2,6 @@
 // License: MIT License
 // email: L.Kamal@live.in
 //
-//
 // Class:KKSignatureView.m
 //
 // Description:
