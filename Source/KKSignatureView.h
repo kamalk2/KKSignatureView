@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////////////////////////////////////
 // License: MIT License
 // Developer email: L.Kamal@live.in
-//
+// https://github.com/kamalk2/KKSignatureView
 //
 // Class:KKSignatureView.h
 //
