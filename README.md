@@ -5,7 +5,7 @@ KKSignatureView is an iOS Signature control written in Objective-C.
 
 ### Features
    - Draw signatures with ease anywhere in your screen
-   - Get and Set Signature images just by calling the class methods
+   - Get and Set Signature images just by calling the instance methods
    - Customize the width and line color of the signature
    - Clear with colors
 
@@ -15,8 +15,26 @@ KKSignatureView is an iOS Signature control written in Objective-C.
   - Add a UIView in your ViewController and assign the class as KKSignatureView
   - Create an IBOutlet and ***Voila!***
   - Use the Custom Class methods to modify the properties and get the signature images.
-  
-Checkout the Demo Project for more help.
+ 
+###### Get the Signature Image
+``` 
+- (UIImage*) getSignatureImage
+```
+
+###### Clear Signature Pad
+```
+- (void)clear;
+- (void)clearWithColor:(UIColor *)color;
+```
+###### Customize
+``` 
+- (void)setLineColor:(UIColor *)color;
+- (void)setLineWidth:(CGFloat)width;
+```
+###### Check Signature
+``` 
+- (BOOL) hasSignature;
+```
 
 ### Screenshots
 ![screenshot](https://cloud.githubusercontent.com/assets/8474562/10122591/2af1f128-653c-11e5-840b-d66a47c4cbab.png)
