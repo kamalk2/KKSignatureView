@@ -15,6 +15,8 @@ KKSignatureView is an iOS Signature control written in Objective-C.
   - Add a UIView in your ViewController and assign the class as KKSignatureView
   - Create an IBOutlet and ***Voila!***
   - Use the Custom Class methods to modify the properties and get the signature images.
+  
+Checkout the Demo Project for more help.
 
 ### Screenshots
 ![screenshot](https://cloud.githubusercontent.com/assets/8474562/10122591/2af1f128-653c-11e5-840b-d66a47c4cbab.png)
