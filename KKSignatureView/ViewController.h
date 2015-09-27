@@ -7,8 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KKSignatureView.h"
+
 
 @interface ViewController : UIViewController
+
+//UIView
+@property (weak,nonatomic) IBOutlet KKSignatureView * signatureView;
+
+- (IBAction)clearWithColorClicked:(id)sender;
+- (IBAction)clearButtonClicked:(id)sender;
+- (IBAction)setImageClicked:(id)sender;
+- (IBAction)getSignClicked:(id)sender;
 
 
 @end

@@ -14,6 +14,7 @@
 		8ADDA6ED1BB80536009520A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADDA6EC1BB80536009520A8 /* Images.xcassets */; };
 		8ADDA6F01BB80536009520A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ADDA6EE1BB80536009520A8 /* LaunchScreen.xib */; };
 		8ADDA6FC1BB80536009520A8 /* KKSignatureViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADDA6FB1BB80536009520A8 /* KKSignatureViewTests.m */; };
+		8ADDA7081BB80573009520A8 /* KKSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADDA7071BB80573009520A8 /* KKSignatureView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8ADDA6F51BB80536009520A8 /* KKSignatureViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKSignatureViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ADDA6FA1BB80536009520A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ADDA6FB1BB80536009520A8 /* KKSignatureViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKSignatureViewTests.m; sourceTree = "<group>"; };
+		8ADDA7061BB80573009520A8 /* KKSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSignatureView.h; sourceTree = "<group>"; };
+		8ADDA7071BB80573009520A8 /* KKSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSignatureView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		8ADDA6DE1BB80536009520A8 /* KKSignatureView */ = {
 			isa = PBXGroup;
 			children = (
+				8ADDA7051BB80552009520A8 /* Source */,
 				8ADDA6E31BB80536009520A8 /* AppDelegate.h */,
 				8ADDA6E41BB80536009520A8 /* AppDelegate.m */,
 				8ADDA6E61BB80536009520A8 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				8ADDA6FA1BB80536009520A8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8ADDA7051BB80552009520A8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8ADDA7061BB80573009520A8 /* KKSignatureView.h */,
+				8ADDA7071BB80573009520A8 /* KKSignatureView.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				8ADDA6E81BB80536009520A8 /* ViewController.m in Sources */,
 				8ADDA6E51BB80536009520A8 /* AppDelegate.m in Sources */,
 				8ADDA6E21BB80536009520A8 /* main.m in Sources */,
+				8ADDA7081BB80573009520A8 /* KKSignatureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
